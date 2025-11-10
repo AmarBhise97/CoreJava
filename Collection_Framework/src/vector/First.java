@@ -20,7 +20,7 @@ public static void main(String[]args) {
 	vec.removeFirst();
 	System.out.println(vec);
 	vec.removeLast();
-	vec.addAll(vec);
+
 	System.out.println(vec);
 }
 }
