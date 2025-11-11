@@ -22,5 +22,6 @@ public static void main(String[]args) {
 	vec.removeLast();
 
 	System.out.println(vec);
+	
 }
 }
