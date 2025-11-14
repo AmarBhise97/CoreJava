@@ -24,8 +24,7 @@ class Book implements Comparable<Book>{
 	}
 	@Override
 	public int compareTo(Book o) {
-		String str = this.name;
-		String str1 = this.name;
+		
 		return this.id-o.id;
 	}
 	public String toString() {
