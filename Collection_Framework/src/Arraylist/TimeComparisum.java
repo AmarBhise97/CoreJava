@@ -7,7 +7,7 @@ public static void main(String args[]) {
 	ArrayList<Laptop>list=new ArrayList();
 	long starttime=System.nanoTime();
 	
-	for(int i=1;i<=10000000;i++) {
+	for(int i=1;i<=100000;i++) {
 		list.add(new Laptop(i,"hp"+i,100.0+i,new int [] {12,23,34},"ab"+i));
 	}
 	long endtime=System.nanoTime();

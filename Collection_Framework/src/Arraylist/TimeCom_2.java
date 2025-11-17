@@ -9,7 +9,7 @@ public static void main(String[]args) {
 		list.add(new Laptop1(i,"ab"+i,1000.0+i,new int []{12,56,3},"av"+i));
 	}
 		long starttime=System.nanoTime();
-		list.remove(9);
+		list.remove(999900);
 		long endtime=System.nanoTime();
 		long total_time=starttime-endtime;
 		System.out.println(total_time);
