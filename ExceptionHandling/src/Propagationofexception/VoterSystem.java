@@ -2,7 +2,7 @@ package Propagationofexception;
 
 public class VoterSystem {
 public static void main(String[]args) {
-	VotingDay.castvote(11, false);
+	VotingDay.castvote(19, true);
 }
 }
 class VotingDay{
@@ -21,8 +21,8 @@ class VotingDay{
 		System.out.println(ex.getMessage());
 	}
 	try {
-		if(age<18 && isIndian==false) {
-			throw new NotIndianException("you are not an indian");
+		if( isIndian==false) {
+			throw new NotIndianException("! But you are not an indian");
 			
 		}
 		System.out.println("You are an 18+..Please vote");

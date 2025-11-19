@@ -5,7 +5,7 @@ public class PhonePay {
 		try {
 			
 		
-		Payment.doPay("001122", 40000);
+		Payment.doPay("001122", 400000);
 		}
 		catch( InsuffiecientAmountException ex) {
 			System.out.println(ex.getMessage()+"::"+ex.getcode()+" code "+" caused by"+ex.getCause());
@@ -22,7 +22,7 @@ public class PhonePay {
 
 class Payment {
 	public static void doPay(String str, int Amount) throws InvalidPinException, InsuffiecientAmountException {
-		String pass = "001122";
+		String pass = "00122";
 		int balance = 70000;
 
 		if (pass.equals(str) == false) {
@@ -64,6 +64,7 @@ class InsuffiecientAmountException extends InvalidPinException {
 	public InsuffiecientAmountException(String str, int code) {
 		super(str);
 		this.code = code;
+		
 	}
 
 	public int getcode() {

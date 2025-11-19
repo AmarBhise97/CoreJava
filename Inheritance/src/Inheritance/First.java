@@ -7,10 +7,10 @@ public class First {
 		a1.Laugh();
 		a1.City();
 
-		Human h1 = new Amar();
-		h1.walk();
-		h1.Laugh();
-		
+//		Human h1 = new Amar();
+//		   h1.walk();
+//////		h1.Laugh();
+////		
 		
 //		Amar a2 = new Human();//////////////// Not Allowed///
 

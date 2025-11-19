@@ -3,7 +3,7 @@ package Advanced;
 public class first
 {
 public static void main(String[]args) {
-	Aeroplane.fly(100);
+	Aeroplane.fly(1001);
 }
 }
 
@@ -19,9 +19,7 @@ class Aeroplane
 			  System.out.println("Aeroplane is in the sky");
 		  }
 		 
-		  catch(RuntimeException ex) {
-			  System.out.println(ex.getMessage());
-		  }
+		  
 		  catch(Exception ex) {
 			  System.out.println(ex.getMessage());
 			  

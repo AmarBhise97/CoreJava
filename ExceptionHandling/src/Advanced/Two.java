@@ -3,9 +3,9 @@ package Advanced;
 public class Two {
 	public static void main(String[] args) {
 
-		int age = 23;
+		int age = 33;
 		try {
-			if (age < 30) {
+			if (age < 18) {
 				throw new wrongAgeException("Wrong Age");
 			}
 			System.out.println("You are Correct");

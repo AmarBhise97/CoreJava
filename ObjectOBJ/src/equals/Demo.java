@@ -13,7 +13,7 @@ public class Demo {
 		Aeroplane ae1 = new Aeroplane();
 		ae1.name = "Indigo";
 		ae1.engine = 45.60;
-		ae1.seats = 1003;
+		ae1.seats = 100;
 		
 		System.out.println(ae1.hashCode());
 		System.out.println(ae.equals(ae1));

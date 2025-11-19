@@ -4,7 +4,7 @@ public class First_1 {
 	public static void main(String[] args) //throws ExpensiveException, NotFoundException
 	{
 		try {
-       Student.purchaseBeg(1512, 0);
+       Student.purchaseBeg(1552, 0);
 		}
 		catch(NotFoundException   | ExpensiveException ex ) {
 			System.out.println(ex.getMessage());

@@ -5,10 +5,11 @@ public static void main(String[]args) {
 	int k=10;
 	int j=0;
 	try {
+		
 		System.out.println(k/j);
 	}
 	catch(Exception ex) {
-		System.out.println(ex.getMessage());
+		System.out.println(ex.getLocalizedMessage());
 	}
 	//System.exit();
 	

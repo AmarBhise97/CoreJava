@@ -8,6 +8,7 @@ public static void main(String[]args) {
 	int str;
 	Scanner sc = new Scanner(System.in);
 	try {
+		System.out.println("Enter name :");
 	str=sc.nextInt();
 	System.out.println(str);
 	}

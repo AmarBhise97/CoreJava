@@ -2,7 +2,8 @@ package DayException_1;
 
 public class sixth {
 public static void main(String[]args) {
-Animal.getage(29);	
+	Animal animal=new Animal(2);
+animal.getage(29);	
 System.out.println("hey there !");
 }
 }
