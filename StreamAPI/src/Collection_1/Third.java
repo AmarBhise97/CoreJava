@@ -14,7 +14,7 @@ public static void main(String[]args) {
 	System.out.println("Multiplication : "+add3.addition(100, 10));
 	
 	Printerk<int[]> printt=(k1)->{System.out.println (k1[5]);
-	return k1;};
+	;};
 	printt.print(new int[] {1,2,3,4,5,6,7,8,9,10});
 }
 }
@@ -23,5 +23,5 @@ interface Calculator<T>{
 	
 }
 interface Printerk<K>{
-	public K print(K k1);
+	public void print(K k1);
 }
