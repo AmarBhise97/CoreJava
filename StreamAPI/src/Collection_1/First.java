@@ -47,7 +47,7 @@ class Bata implements School<Integer> {
 
 	public Integer add(Integer i, Integer j) {
 
-		return i * j;
+		return i + j;
 	}
 
 }
