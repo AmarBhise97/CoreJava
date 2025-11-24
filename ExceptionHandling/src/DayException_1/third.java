@@ -3,13 +3,13 @@ package DayException_1;
 public class third {
 public static void main(String[]args) {
 	int i=10;
-	int j = 0;
+	int j = 10;
 	try {
-	System.out.println(i/j);
+	
+	
+	throw new Exception( (i/j)+"possible"); 
 	}
-	catch(ArithmeticException ex) {
-	System.out.println(ex.getMessage());	
-	}
+	
 	catch(Exception ex) {
 		System.out.println(ex.getMessage());
 	}

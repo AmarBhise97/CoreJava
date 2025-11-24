@@ -2,7 +2,7 @@ package DayException_1;
 
 public class sixth {
 public static void main(String[]args) {
-	Animal animal=new Animal(2);
+	Animal animal=new Animal();
 animal.getage(29);	
 System.out.println("hey there !");
 }
@@ -20,7 +20,7 @@ class Animal{
 		System.out.println("Hiii 2");
 		
 	}
-	static public void getage(int age) {
+	 public static void getage(int age) {
 		try {
 		if(age>20 && age<30) {
 			System.out.println("Not vallid");

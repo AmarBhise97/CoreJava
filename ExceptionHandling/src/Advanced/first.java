@@ -3,7 +3,7 @@ package Advanced;
 public class first
 {
 public static void main(String[]args) {
-	Aeroplane.fly(1001);
+	Aeroplane.fly(100);
 }
 }
 

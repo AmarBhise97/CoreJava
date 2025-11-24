@@ -34,7 +34,7 @@ interface Class {
 
 class Jvm implements Class {
 	public void student(String name) {
-		System.out.println(" Jvm School Amar  :: 01 :: 88.80:" + name);
+		System.out.println("Jvm School Amar  :: 01 :: 88.80:" + name);
 	}
 
 	public void book(String bookname) {
@@ -51,7 +51,7 @@ class Cocsit implements Class {
 	}
 
 	public void book(String bookname) {
-		System.out.println("Book name = C++" + bookname);
+		System.out.println("Book name = C++ " + bookname);
 
 	}
 

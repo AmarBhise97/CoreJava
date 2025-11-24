@@ -1,3 +1,5 @@
+
+
 package PropogationStatus;
 
 public class PhonePay {
@@ -5,7 +7,7 @@ public class PhonePay {
 		try {
 			
 		
-		Payment.doPay("001122", 400000);
+		Payment.doPay("00122", 400000);
 		}
 		catch( InsuffiecientAmountException ex) {
 			System.out.println(ex.getMessage()+"::"+ex.getcode()+" code "+" caused by"+ex.getCause());

@@ -18,7 +18,7 @@ public static void main(String[]args) {
 	b2.color="Black";
 	System.out.println(b2.hashCode());
 	System.out.println(b1.equals(b2));
-	System.out.println("kavasaki".equals(null));
+	System.out.println("kavasaki".equals("Kavasaki"));
 }
 }
 class Bike{

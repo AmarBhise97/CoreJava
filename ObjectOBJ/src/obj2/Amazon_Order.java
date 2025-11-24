@@ -20,7 +20,7 @@ class Order{
 		return this.price + " " + this.date +" "+this.item;
 	}
 	public Order(Adress adress) {
-		adress=adress;
+		this.adress=adress;
 	}
 	public void DispatchOrder() {
 		System.out.println("order dispatch to the address"+adress);

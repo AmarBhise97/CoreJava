@@ -12,7 +12,7 @@ public static void main(String[]args) {
 	//	counter=i+1;
 		list.add(i+1);
 	}
-	list.add(20);
+	list.add(0);
 	System.out.println(list);
 	list.remove(2);
 	System.out.println(list);

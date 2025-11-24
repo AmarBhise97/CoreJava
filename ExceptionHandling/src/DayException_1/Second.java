@@ -2,7 +2,7 @@ package DayException_1;
 
 public class Second {
 public static void main(String[]args) {
-	int Money=500;
+	int Money=5002;
 	int Amount=1400;
 	try {
 		if(Money>Amount) {

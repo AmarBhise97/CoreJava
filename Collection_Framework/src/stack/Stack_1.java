@@ -11,7 +11,7 @@ public static void main(String[]args) {
 	stack.push(null);
 	System.out.println(stack.size());
 	
-	stack.clear();
+	
 	String str = stack.peek();
 	System.out.println(str);
 	System.out.println(stack);

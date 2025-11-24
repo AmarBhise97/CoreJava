@@ -34,7 +34,7 @@ class Two_wheeler extends Three_wheeler {
 
 	public Two_wheeler(String name) {
 		super(name.toUpperCase());
-		// TODO Auto-generated constructor stub
+		
 	}
 
 }

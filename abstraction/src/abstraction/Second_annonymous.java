@@ -4,9 +4,9 @@ public class Second_annonymous {
 public static void main(String[]args) {
 	City city = new City() {
 
-		@Override
+		
 		public void showpincode(String name) {
-			// TODO Auto-generated method stub
+		
 			System.out.println("Hiiiii...."+name);
 		}
 		

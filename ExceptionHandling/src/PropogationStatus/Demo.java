@@ -2,8 +2,9 @@ package PropogationStatus;
 
 public class Demo {
 public static void main(String []args) {
+	int age =10;
 	try {
-       if(10>0) {
+       if(7>0) {
     	   throw new NotSundayException("No Holiday",300, new Throwable("Today id Saturday"));
     	   
        }

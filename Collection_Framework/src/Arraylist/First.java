@@ -13,6 +13,8 @@ public static void main(String[]args) {
 	list.add(2);
 	list.add(null);
 	list.add(null);
+	list.remove(5);
+	
 	System.out.println(list);
 	System.out.println(list.size());
 }

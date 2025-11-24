@@ -9,16 +9,16 @@ public class First {
 		list.add(34);
 		list.add("2345");
 		list.add("amar");
-		list.addAll(list);
+		//list.addAll(list);
 		System.out.println(list);
-		System.out.println(list.contains("amark"));
+		System.out.println(list.contains("amar"));
 		System.out.println(list.set(0, 400));
 		//list.clear();
 		System.out.println(list.isEmpty());
 		System.out.println("List:"+list);
-		System.out.println("=========");
+		System.out.println("=========================");
 		System.out.println(list.size());
-		System.out.println("==========");
+		System.out.println("==========================");
 		for(int i= 0; i<list.size();i++) {
 			System.out.println(list.get(i));
 		}

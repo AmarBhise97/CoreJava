@@ -8,7 +8,7 @@ public class Two {
 			if (age < 18) {
 				throw new wrongAgeException("Wrong Age");
 			}
-			System.out.println("You are Correct");
+			System.out.println("Please vote");
 		} 
 		catch (wrongAgeException ex) {
 			System.out.println(ex.getMessage());
