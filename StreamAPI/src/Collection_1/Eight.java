@@ -3,7 +3,7 @@ package Collection_1;
 public class Eight {
 public static void main(String[]args) {
 	Calculator1<String> ct =(t1,t2,t3)->{ int id=10;String name ="Amar";Double Price =1200.9 ; return id + name + Price;};
-	System.out.println(ct.Calculate(10, "Ankit", 1200.0));
+	System.out.println(ct.Calculator1(10, "Ankit", 1200.0));
 }
 }
 interface Calculator1<T>{
