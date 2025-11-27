@@ -21,6 +21,8 @@ public class First {
 		System.out.println(pred3.test(20));
 		
 		
+		
+		
 	}
 
 }
