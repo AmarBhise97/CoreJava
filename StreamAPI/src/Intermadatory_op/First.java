@@ -26,6 +26,6 @@ public class First {
 class Graterthan implements Predicate<Integer> {
 
 	public boolean test(Integer i) {
-		return i ==400;
+		return i >400;
 	}
 }
