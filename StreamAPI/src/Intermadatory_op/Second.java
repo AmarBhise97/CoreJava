@@ -15,5 +15,6 @@ public static void main(String[]args) {
 	
 	System.out.println(list);
 	list.stream().forEach ( i ->System.out.println(i>200));
+	
 }
 }
