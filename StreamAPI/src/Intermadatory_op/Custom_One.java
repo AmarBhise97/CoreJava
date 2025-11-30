@@ -28,7 +28,7 @@ public static void main(String[]args) {
 	
 	System.out.println("=======================");
 	list4.stream().forEach(new Two_D());
-	System.out.println("Amar");
+
 	
 }
 }
