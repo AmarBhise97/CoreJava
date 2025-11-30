@@ -3,6 +3,7 @@ package Intermadatory_op;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class MapFunction {
 public static void main(String[]args) {
@@ -37,3 +38,5 @@ class ConvertString implements Function< Integer,String>{
 
 
 }
+
+
