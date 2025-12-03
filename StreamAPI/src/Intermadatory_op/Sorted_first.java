@@ -5,6 +5,9 @@ import java.util.List;
 
 public class Sorted_first {
 public static void main(String[]args) {
+	/**
+	 * Sorting maintain the assanding order.
+	 */
 	List<Integer> list = new ArrayList<Integer>();
 	list.add(12);
 	list.add(15);
