@@ -37,7 +37,9 @@ public class Custom_Two {
 		List<List<List<Integer>>> list_1_1_1 = new ArrayList<List<List<Integer>>>();
 		list_1_1_1.add(list_2_2);
 		list_1_1_1.add(list_1_1);
-
+        /**
+         * using -> Lambda.
+         */
 		list_1_1_1.stream().forEach((i) -> {
 			i.stream().forEach((j) -> {
 				j.stream().forEach((k) -> {
@@ -46,6 +48,9 @@ public class Custom_Two {
 			});
 		});
 		System.out.println("=====================================================");
+		/**
+		 * using class .
+		 */
 		list_1_1_1.stream().forEach(new Three_DD());
 
 	}
