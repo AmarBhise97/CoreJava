@@ -18,6 +18,11 @@ public static void main(String[]args) {
 	list.add("Biscut");
 	list.add("Bust");
 	System.out.println(list);
+	
+	
+	
+	
+	
 	list.stream()
 	.map((i)->{return i.toUpperCase();})
 	.filter((i)->{return i.startsWith("B");})
@@ -25,6 +30,10 @@ public static void main(String[]args) {
 	.sorted()
 	.distinct()
 	.forEach((i)->{System.out.println(i);});
+	
+	
+	
+	
 	
 	System.out.println("==========================================================");
 	
@@ -37,6 +46,10 @@ public static void main(String[]args) {
 	.forEach((i)->{System.out.println(i);});
 }
 }
+
+
+
+
 class CompareBiscut implements Comparator<Integer>{
 	public int compare(Integer o1,Integer o2) {
 		return Integer.compare(o2,o1);
