@@ -6,10 +6,10 @@ import java.util.Objects;
 
 public class Limitos_Skip_2 {
 	public static void main(String[] args) {
-		Student stu = new Student("Amar ",101);
-		Student stu1 = new Student("Suresh",102);
-		Student stu2 = new Student("Ranvir",102);
-		Student stu3 = new Student("Kerti",104);
+		Student stu = new Student(108 ,": Amar :");
+		Student stu1 = new Student(102,": Suresh :");
+		Student stu2 = new Student(103,": Ranvir :");
+		Student stu3 = new Student(102,": Kerti :");
 		
 		List<Student> list = new ArrayList<Student>();
 		list.add(stu);
@@ -27,19 +27,21 @@ class Student implements Comparable<Student>{
 	String name;
 	int id;
 
-	public Student(String name, int id) {
+	public Student(int id, String name) {
 		this.name = name;
 		this.id = id;
 
 	}
 
-	public int hashCode() {
-		return Objects.hash(this.id);
-	}
+	
 
 	public boolean equals(Object o) {
 		Student st = (Student) o;
 		return this.id == st.id ;
+	}
+	
+	public int hashCode() {
+		return Objects.hash(this.id );
 	}
 	
 	public int compareTo(Student s) {

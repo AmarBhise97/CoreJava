@@ -8,11 +8,11 @@ import java.util.Objects;
 public class Limitos_Skip {
 	public static void main(String[]args) {
 		List <Emp> list = new ArrayList<Emp>();
-		list.add(new Emp("Amar",12005));
-		list.add(new Emp("Amar",12005));
-		list.add(new Emp("keshav",12005));
-		list.add(new Emp("rushi",12005));
-		list.stream().distinct().sorted(new Comparing1()).limit(2).skip(1).forEach((i)->{System.out.println(i);});
+		list.add(new Emp("Amar",12009));
+		list.add(new Emp("Amar",12009));
+		list.add(new Emp("keshav",1200));
+		list.add(new Emp("rushi",12006));
+		list.stream().sorted(new Comparing1()).distinct().forEach((i)->{System.out.println(i);});
 	}
 
 }
@@ -29,12 +29,12 @@ class Emp implements Comparable<Emp>{
 		
 	}
 	public int hashCode() {
-		System.out.println("A");
+		
 		return Objects.hash(this.name);
 	}
 	public boolean equals(Object obj) {
 		Emp ep = (Emp)obj;
-		return this.name .equals(ep.name)+" "+ this.price == ep.price +" ";
+		return this.name .equals(ep.name);
 		
 	}
 	public String toString() {
@@ -43,13 +43,14 @@ class Emp implements Comparable<Emp>{
 	public int compareTo(Emp e){
 		return e.name.compareTo(this.name) ;
 	}
-}
-class Comparing1 implements Comparator<Integer>{
-
-	@Override
-	public int compare(Integer o1, Integer o2) {
-		// TODO Auto-generated method stub
-		return Integer.compare(o1,o2);
-	}
 	
 }
+class Comparing1 implements Comparator<Emp>{
+
+	
+
+
+	public int compare(Emp o1, Emp o2) {
+	
+		return Integer.compare(o2.price, o1.price);
+	}}
