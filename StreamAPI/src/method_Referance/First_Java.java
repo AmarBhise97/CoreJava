@@ -25,6 +25,7 @@ public class First_Java {
 
 }
 class Student{
+	
 	public static boolean add(int i) {
 		return i%2==0;
 		
