@@ -18,6 +18,7 @@ public class Fourth_Function {
 		
 		Function<Integer,Integer> fun3 = Employee::addd2;
 		System.out.println(fun3.apply(5));
+		
 
 	}
 
