@@ -8,7 +8,6 @@ public class Logical_Arbitary_3 {
 		List<Studen> list = Arrays.asList(new Studen(45,67,89),new Studen(56,78,90));
 		list.stream().map(Studen::add)
 		.map(Studen::add2)
-		
 		.forEach(System.out::println);
 		
 	}
