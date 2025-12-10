@@ -27,7 +27,10 @@ public class Arbitary_one {
 		
 		System.out.println("=================================================");
 		
+		List<String > li = Arrays.asList("abc","abcd","abcde","abcdef");
+		li.stream().map(String::toUpperCase)
 		
+		.forEach(System.out::println);
 		
 	
 
