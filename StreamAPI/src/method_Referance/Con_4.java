@@ -5,7 +5,7 @@ package method_Referance;
 public class Con_4 {
 	public static void main(String[] args) {
 		i_f<Printer1,String> pri = Printer1::new;
-		System.out.println(pri.add("null pointer").toString());
+		System.out.println(pri.add("null pointer"));
 
 	}
 
