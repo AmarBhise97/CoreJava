@@ -13,6 +13,10 @@ public class Binary_Fun {
 			return i+j;});
 		
 		System.out.println(Sum);
+		System.out.println("============================================");
+		
+		int su=li.stream().reduce(6, Integer::sum);
+		System.out.println(su);
 		
 	}
 
