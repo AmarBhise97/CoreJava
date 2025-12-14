@@ -10,6 +10,8 @@ public class Cons_5 {
 		.peek(System.out::println)
 		.map(StringBuilder::new)
 		.map(StringBuilder::reverse)
+		.map(StringBuilder::toString)
+		.map(String::toUpperCase)
 		.forEach(System.out::println);
 	}
 
