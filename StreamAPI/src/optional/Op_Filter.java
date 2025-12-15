@@ -6,7 +6,7 @@ public class Op_Filter {
 	public static void main(String[]args) {
 		Optional<String> op= Optional.ofNullable("AmarBhise");
 		
-		System.out.println(op.filter((i)->(i.length()>10)));
+		System.out.println(op.filter((i)->(i.length()>7)));
 	 }
 
 }
