@@ -11,7 +11,8 @@ public class Optional_or {
 		System.out.println("=======================================================");
 
 		Optional<String> op1 = Optional.ofNullable(null);
-		System.out.println(op1.get());
+	
+;	
         System.out.println(op1.or(() -> (Optional.of("null value detected"))));
 
 	}
