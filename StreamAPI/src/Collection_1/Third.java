@@ -13,7 +13,7 @@ public static void main(String[]args) {
 	System.out.println("Division : "+add2.addition(100, 10));
 	System.out.println("Multiplication : "+add3.addition(100, 10));
 	
-	Printerk<int[]> printt=(k1)->{System.out.println (k1[5]);
+	Printerk<int[]> printt=(k1)->{System.out.println (k1[7]);
 	;};
 	printt.print(new int[] {1,2,3,4,5,6,7,8,9,10});
 }

@@ -15,9 +15,9 @@ public class First {
 //		 * works on the .and logic
 //		 */
 //		System.out.println(pred3.test(51));
-		Predicate <Integer>pred =(i)->{return i<10;};
+		Predicate <Integer>pred =(i)->{return i>10;};
 		Predicate <Integer>pred2 =(j)->{return j>50;};
-		Predicate<Integer> pred3=pred.or(pred2);
+		Predicate<Integer> pred3=pred;
 		System.out.println(pred3.test(20));
 		
 		

@@ -9,7 +9,7 @@ public static void main(String[]args) {
 	 */
 	Consumer <Integer> con =(t)->{System.out.println(t*2);};
 	Consumer <Integer> con2 =(t)->{System.out.println(t*3);};
-	Consumer <Integer> cons3=con;
+	Consumer <Integer> cons3=con2;
 	cons3.accept(10);
 	
 }
