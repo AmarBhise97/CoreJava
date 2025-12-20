@@ -5,7 +5,11 @@ public class Referance_1 {
 		Student st = new Student(11,"Amar",150000.7);
 		Student st1 =st;
 		System.out.println(st);
+		System.out.println(st1);
+		
+		System.out.println("=============================================");
 		st1.name="Rutik";
+		st1.id=19;
 		System.out.println(st1);
 		System.out.println(st);//change the value for st and also st1.
 	}
