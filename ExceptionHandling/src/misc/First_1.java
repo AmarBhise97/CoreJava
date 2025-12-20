@@ -12,7 +12,7 @@ public class First_1 {
 	}
 }
 
-class ExpensiveException extends Exception {
+class ExpensiveException extends Throwable {
 
 	public ExpensiveException(String str) {
 		super(str);

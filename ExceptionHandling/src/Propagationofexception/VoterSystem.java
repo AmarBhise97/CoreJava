@@ -2,7 +2,7 @@ package Propagationofexception;
 
 public class VoterSystem {
 public static void main(String[]args) {
-	VotingDay.castvote(19, false);
+	VotingDay.castvote(19, true);
 }
 }
 class VotingDay{

@@ -39,6 +39,7 @@ public class First {
 		qe1.add(23);
 		qe1.add(56);
 		qe1.add(2);
+		
 		//qe1.add(null);
 		/**
 		 * PriortyQueue not maintain insertatiin order or not the sorting.

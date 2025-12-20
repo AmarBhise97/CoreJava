@@ -1,6 +1,6 @@
 package Propagationofexception;
 
-public class InvalidAgeException extends RuntimeException {
+public class InvalidAgeException extends Exception {
 	public InvalidAgeException() {
 		super("Invalid age exception");
 

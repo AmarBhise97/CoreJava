@@ -54,9 +54,9 @@ class Bike implements Comparable<Bike> {
 
 class PriceComparator implements Comparator<Bike> {
 
-	@Override
+	
 	public int compare(Bike o1, Bike o2) {
-		// TODO Auto-generated method stub
+		
 		return Double.compare(o2.price, o1.price);
 	}
 
@@ -64,9 +64,9 @@ class PriceComparator implements Comparator<Bike> {
 
 class IDComparator implements Comparator<Bike> {
 
-	@Override
+	
 	public int compare(Bike o1, Bike o2) {
-		// TODO Auto-generated method stub
+		
 		return Integer.compare(o1.id, o2.id);
 	}
 

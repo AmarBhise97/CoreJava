@@ -6,8 +6,8 @@ import java.util.TreeSet;
 public class First {
 public static void main(String[]args) {
 	Set<Book> set = new TreeSet<Book>();
-	set.add(new Book(1,"kd",1600.80));
-	set.add(new Book(2,"DA",1300.70));
+	set.add(new Book(1,"Kd",1600.80));
+	set.add(new Book(1,"K5",1300.70));
 	System.out.println(set);
 }
 }

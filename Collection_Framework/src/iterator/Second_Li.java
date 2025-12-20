@@ -13,7 +13,7 @@ public class Second_Li {
 		ListIterator<Integer> li = list.listIterator();
 		while (li.hasNext()) {
 			System.out.println(li.next());
-			System.out.println("Li");
+			//System.out.println("Li");
 		}
 	}
 }

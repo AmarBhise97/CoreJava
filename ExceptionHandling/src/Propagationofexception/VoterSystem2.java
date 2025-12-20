@@ -16,7 +16,7 @@ public static void main(String[]args)// throws InvalidAgeException,NotIndianExce
 }
 
 class Voting{
-	static public void CheakingEligiblity(int age, boolean from ) {
+	static public void CheakingEligiblity(int age, boolean from ) throws InvalidAgeException {
 		if (age<18) {
 			throw new InvalidAgeException();
 		}

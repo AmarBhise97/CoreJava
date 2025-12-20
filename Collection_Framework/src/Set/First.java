@@ -11,6 +11,7 @@ public static void main(String[]args) {
 	set.add(1);
 	set.add(34);
 	set.add(null);
+	set.add(null);
 	//set.add("ad");
 	System.out.println(set);
 }

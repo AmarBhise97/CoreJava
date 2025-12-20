@@ -7,9 +7,9 @@ import java.util.Set;
 public class Second {
 	public static void main(String[] args) {
 		Set<Bike> set = new HashSet<Bike>();
-		Bike bike = new Bike(12, "Dueak", 90000);
-		Bike bike1 = new Bike(13, "H2R", 120000);
-		Bike bike2 = new Bike(14, "Hunter", 450000);
+		Bike bike = new Bike(12, " Dueak ", 90000);
+		Bike bike1 = new Bike(12, " Dueak ", 90000);
+		Bike bike2 = new Bike(12, " Dueak ", 90000);
          set.add(bike);
          set.add(bike1);
          set.add(bike2);
@@ -66,6 +66,6 @@ class Bike {
 		return (this.id == b1.id && this.name.equals(b1.id) && this.price == b1.price);
 	}
 	public String toString() {
-		return "Bike"+this.id;
+		return "Bike"+this.id+this.name+this.price;
 	}
 }
