@@ -25,7 +25,7 @@ public class Deep_Copying_2 {
 
 }
 
-class Order {
+class Order implements Cloneable {
 	int price;
 	String Item;
 	Address address;
@@ -50,7 +50,7 @@ class Order {
 
 }
 
-class Address {
+class Address  implements Cloneable {
 	String pincode;
 	String city;
 

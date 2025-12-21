@@ -3,7 +3,7 @@ package copying;
 public class Deep_Copy_Log_1 {
 	public static void main(String[]args)throws Exception {
 	Subdivisions sub = new Subdivisions("Pune");
-	Villages v1 = new Villages("Kolkata",30008,sub);
+	Villages v1 = new Villages("Kolkata",308,sub);
 	
 	Villages v2= new Villages(v1);
 	v2.sub.sub_name="Latur";

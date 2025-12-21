@@ -4,21 +4,20 @@ public class Shallow_copy_2 {
 	public static void main(String[]args) throws CloneNotSupportedException {
 		Student1 st = new Student1("Ankit",23,88.60);
 		Student1 st2=(Student1)st.clone();
+		st2.name="Rj";
 		System.out.println(st);
 		System.out.println(st2);
 		/**
-		 * output shown CloneNotSupportedException 
-		 * because its a native method its used in c,c++;
-		 * 
-		 * connect using JNI(Java Native Interface).
+		 *
 		 */
 	}
 
 }
-class Student1{
+class Student1 implements Cloneable{
 	String name;
 	int id;
 	double marks;
+	School sc;
 	
 	public Student1(String name,int id,double marks) {
 		this.name=name;
