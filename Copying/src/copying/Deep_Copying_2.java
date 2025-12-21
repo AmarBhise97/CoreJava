@@ -38,7 +38,8 @@ class Order {
 	}
 
 	public Object clone() throws CloneNotSupportedException {
-		Order o2 = (Order) super.clone();
+		//Order o1 = new Order(price, Item, address)super.clone();
+		Order o2 =(Order)super.clone();
 		o2.address = (Address) this.address.clone();
 		return o2;
 	}
