@@ -8,7 +8,7 @@ public class Shallow_Copy_1 {
 		System.out.println(emp2);
 		
 		System.out.println("==============================================");
-		emp1.id=44;
+		emp1.name="Rutik";
 		emp2.id=56;
 		System.out.println(emp1);
 		System.out.println(emp2);
@@ -17,7 +17,7 @@ public class Shallow_Copy_1 {
 
 }
 
-class Employee {
+class Employee implements Cloneable{
 	int id;
 	String name;
 	String city;
@@ -35,7 +35,7 @@ class Employee {
 		String name = this.name;
 		String city = this.city;
 		Employee emp = new Employee(id, name, city);
-		//return id+name+city;//class castException thrown
+		//return id+name+city;//  classcastException thrown
 		return emp;
 		
 		

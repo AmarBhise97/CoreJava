@@ -6,7 +6,12 @@ public class Shallow_copy_2 {
 		Student1 st2=(Student1)st.clone();
 		System.out.println(st);
 		System.out.println(st2);
-		
+		/**
+		 * output shown CloneNotSupportedException 
+		 * because its a native method its used in c,c++;
+		 * 
+		 * connect using JNI(Java Native Interface).
+		 */
 	}
 
 }
