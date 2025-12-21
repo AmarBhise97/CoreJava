@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		//arr[1]=1;
 		for(int i=0;i<5;i++)
 		{
-			 arr[i]=i+1+2+1;
+			 arr[i]=i+1+2+100;
 			
 			 
 		}
