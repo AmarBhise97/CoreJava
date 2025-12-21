@@ -6,6 +6,8 @@ public class Referance_1 {
 		Student st1 =st;
 		System.out.println(st);
 		System.out.println(st1);
+		System.out.println(st.hashCode());
+		System.out.println(st1.hashCode());
 		
 		System.out.println("=============================================");
 		st1.name="Rutik";
