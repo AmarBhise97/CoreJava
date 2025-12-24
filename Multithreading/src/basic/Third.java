@@ -17,7 +17,7 @@ public class Third {
 		Number num = new Number();
 		Thread th =new Thread(r);
 		num.start();
-		//num.join();
+		//num.join();//////Execution one by one///////////////////////////////////////
 		th.start();
 		th.join();
 		
