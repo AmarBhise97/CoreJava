@@ -11,6 +11,10 @@ public static void main(String[]args) {
 	Bank2<String> bank2=(t1,t2,t3,t4,t5)->{return t1 + t2 + t3 + t4 +t5 ;};
 	System.out.println(bank2.BankStatement("Customer name || ", "Account Number || ", "Debit Amount ||", "Creadit Amount ||","Total Amount"));
 	
+	Bank2<String> bank3=(t1,t2,t3,t4,t5)->{return t1 + t2 + t3 + t4 +t5 ;};
+	System.out.println(bank3.BankStatement("Aryan Sapsod  || ", "  1012609005   || ", "1000         ||", "       2000    ||","-1000       "));
+	
+	
 	
 	
 	

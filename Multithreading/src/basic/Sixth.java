@@ -9,7 +9,7 @@ public class Sixth {
 		thread2.start();
 		//thread1.join();
 		thread1.start();
-		thread2.join();
+		//thread2.join();
 		System.out.println(source.counter());
 
 	}
@@ -34,7 +34,7 @@ class Thread1 extends Thread {
 	}
 
 	public void run() {
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 10000; i++) {
 			source.count++;
 			count++;
 		}
@@ -51,7 +51,7 @@ class Thread2 extends Thread {
 	}
 
 	public void run() {
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 10000; i++) {
 			source.count++;
 			count++;
 		}

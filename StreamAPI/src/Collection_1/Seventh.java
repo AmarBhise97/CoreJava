@@ -2,7 +2,7 @@ package Collection_1;
 
 public class Seventh {
 public static void main(String[]args) {
-	Arrayee<int []> are =(t1)->{System.out.println("SingleInteger :"+t1[4]);};
+	Arrayee<int []> are =(t1)->{System.out.println("SingleInteger :"+t1[8]);};
 	are.arr(new int[] {1,2,3,4,5,6,7,8,9,10});
 	
 	MultyArray<Integer [][]>are1 =(t1)->{System.out.println("Integer : "+t1[2][2]);};
