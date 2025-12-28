@@ -1,18 +1,12 @@
 package Pattern_3;
 
-public class Six_pt {
+public class Seven_p {
 	public static void main(String[] args) {
-		
-	/**	E E E E E 
-		D D D D D 
-		C C C C C 
-		B B B B B 
-		A A A A A */
 		char i;
 		char j;
 		for(i='E';i>='A';i--) {
 			for(j='E';j>='A';j--) {
-				System.out.print(i+" ");
+				System.out.print(" "+j);
 			}
 			System.out.println();
 		}
