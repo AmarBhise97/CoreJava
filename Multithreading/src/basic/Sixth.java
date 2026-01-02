@@ -3,24 +3,24 @@ package basic;
 public class Sixth {
 	public static void main(String[] args) throws InterruptedException {
 		Source source = new Source();
-		Thread1 thread1 = new Thread1(source);
-		Thread2 thread2 = new Thread2(source);
+	Thread1 thread1 = new Thread1(source);
+	Thread2 thread2 = new Thread2(source);//core oudala
 
-		thread2.start();
-		//thread1.join();
-		thread1.start();
-		//thread2.join();
-		System.out.println(source.counter());
+      thread2.start();
+//		thread1.join();
+	thread1.start();
+//		thread2.join();
+//		System.out.println(source.counter());
 
 	}
 
 }
 
 class Source {
-	int count = 0;
+	static int count = 0;
 
-	public int counter() {
-		return this.count;
+	public static int counter() {
+		return count;
 
 	}
 }
