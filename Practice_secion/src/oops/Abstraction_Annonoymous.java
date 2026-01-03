@@ -31,18 +31,8 @@ abstract class Six{
 	abstract void pt(int id1);
 	
 }
-class Ditermine extends Six {
-
-	public Ditermine(int id, String name) {
-		super(id, name);
-		
-	}
 
 	
-	void pt(int id1) {
-		System.out.println(id);
-		
-	}
 	
 	
-}
+
