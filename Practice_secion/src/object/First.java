@@ -3,7 +3,7 @@ package object;
 public class First {
 	public static void main(String[] args) {
 		Bike b1 = new Bike(1,"Amar","Pune");
-		Bike b2 = new Bike(2,"amar","Pune");
+		Bike b2 = new Bike(2,"Amar","Pune");
 		
 		
 		System.out.println(b1.hashCode());
@@ -32,12 +32,11 @@ class Bike {
 	
 	
 	public int hashCode() {
-		 return 100;
+		 return this.id;
 	}
 	public boolean equals(Object o) {
 		Bike b1 = (Bike)o;
-		//return  this.id==b1.id && this.name.equals(b1.name)&& this.city.equals(b1.city) ;
-		return true;
+		return  this.id==b1.id && this.name.equals(b1.name)&& this.city.equals(b1.city) ;
 	}
 	
 	
