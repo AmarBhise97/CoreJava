@@ -2,6 +2,13 @@ package Pattern_3;
 
 public class Eight_p {
 	public static void main(String[] args) {
+		
+/**		A B C D E 
+		F G H I J 
+		K L M N O 
+		P Q R S T 
+		U V W X Y */
+		
 		int n=5;
 		char ch ='A';
 		for(int i=1;i<=n;i++) {
