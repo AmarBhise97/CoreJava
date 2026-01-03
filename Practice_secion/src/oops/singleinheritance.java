@@ -2,7 +2,7 @@ package oops;
 
 public class singleinheritance {
 	public static void main(String[]args) {
-		second se = new second();
+		//second se = new second();
 		
 		second se2 = new second(12,"Amar","pune", 13,"Omkar","pune");
 		se2.pt();
@@ -20,6 +20,7 @@ class First{
 		
 	}
 	public First(int id,String name,String city) {
+		this();
 		this.id=id;
 		this.name=name;
 		this.city=city;
