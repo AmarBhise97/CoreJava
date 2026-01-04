@@ -1,12 +1,16 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
 public class Arraylist_1 {
 	public static void main(String[]args) {
 		ArrayList<Integer> list = new ArrayList<>();
+		List<Integer> li=Arrays.asList(12,13,14,15,16);
+		System.out.println(li.reversed());
+		
 		list.add(null);
 		list.add(12);
 		list.add(12);

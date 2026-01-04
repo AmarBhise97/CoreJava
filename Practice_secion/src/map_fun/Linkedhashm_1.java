@@ -1,10 +1,13 @@
 package map_fun;
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Linkedhashm_1 {
 	public static void main(String[]args) {
 		LinkedHashMap<Integer,Integer> lm = new LinkedHashMap<>();
+	
 		lm.put(12, 12);
 		lm.put(null, 13);
 		lm.put(null, 9);
