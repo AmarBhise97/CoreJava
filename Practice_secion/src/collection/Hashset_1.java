@@ -26,6 +26,7 @@ public class Hashset_1 {
 		System.out.println(set.clone());
 		
 		
+		
 		Iterator<Integer> it = set.iterator();
 		while(it.hasNext()) {
 			System.out.println(it.next());
