@@ -6,6 +6,7 @@ import java.util.Objects;
 
 public class Custom_linked {
 	public static void main(String[] args) {
+		
 		Car c1 = new Car(12,"BB45 ","Desel ",66000.0);
 		Car c2 = new Car(12,"BB45 ","Desel ",66000.0);
 		Car c3 = new Car(14,"BB45 ","Desel ",66000.0);
@@ -13,6 +14,7 @@ public class Custom_linked {
 		Car c5 = new Car(18,"BB45 ","Desel ",66000.0);
 		Car c6 = new Car(19,"BB45 ","Desel ",66000.0);
 		Car c7 = new Car(90,"BB45 ","Desel ",66000.0);
+	
 		System.out.println(c1.hashCode());
 		System.out.println(c2.hashCode());
 		System.out.println(c3.hashCode());
@@ -22,6 +24,7 @@ public class Custom_linked {
 		System.out.println(c7.hashCode());
 		System.out.println(c1.equals(c3));
 		LinkedHashSet<Car> lik = new LinkedHashSet<>();
+		
 		lik.add(c1);
 		lik.add(c2);
 		lik.add(c3);
@@ -36,9 +39,7 @@ public class Custom_linked {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
-
 	}
-
 }
 
 class Car {
