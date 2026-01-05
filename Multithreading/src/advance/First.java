@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 public class First {
 	public static void main(String[]args) {
 		ExecutorService ser = Executors.newCachedThreadPool();
-		for(int i=0;i<100;i++) {
+		for(int i=0;i<10;i++) {
 			Thread_1 th = new Thread_1(i);
 			ser.execute(th);
 		}

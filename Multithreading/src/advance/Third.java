@@ -3,31 +3,31 @@ package advance;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Secong {
+public class Third {
 	public static void main(String[]args) {
-		ExecutorService ex =  Executors.newFixedThreadPool(5);
-		for(int i=0;i<=5;i++) {
-			Thread_2 th = new Thread_2(i);
+		ExecutorService ex = Executors.newSingleThreadExecutor();
+		
+		for(int i=0;i<5;i++) {
+			Thread_3 th = new Thread_3(i);
 			ex.execute(th);
-			
 		}
 		ex.shutdown();
-		
 		
 	}
 
 }
-class Thread_2 extends Thread{
+class Thread_3 extends Thread
+{
 	int id;
-	public Thread_2(int id) {
+	public Thread_3(int id) {
 		this.id=id;
 	}
+	
 	public void run() {
-		System.out.println(Thread.currentThread().getName()+" geting Threads " +this.id);
+		System.out.println(Thread.currentThread().getName()+" GettingThread "+ this.id);
 		
 		for(int i= 0;i<10;i++) {
 			System.out.println(i);
-			
 		}
 	}
 }
