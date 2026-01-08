@@ -14,10 +14,12 @@ public class Private_Method {
 		}
 		Constructor<?> c = c1.getDeclaredConstructor();
 		Method m1 = c1.getDeclaredMethod("add", int.class, int.class);
+		
+		
 		Fourth f1 = (Fourth)c.newInstance();
 		m1.setAccessible(true);
 		m1.invoke(f1, 12,12);
-		System.out.println(f1);
+	
 
 	}
 
