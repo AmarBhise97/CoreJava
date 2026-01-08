@@ -7,7 +7,7 @@ public class Demon_2 {
 		
 		demo.setDaemon(true);
 		demo.start();
-		de.setDaemon(true);
+		
 		de.start();
 		
 		System.out.println("hey...");

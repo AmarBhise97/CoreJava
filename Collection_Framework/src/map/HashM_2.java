@@ -7,8 +7,8 @@ import java.util.Objects;
 public class HashM_2 {
 public static void main(String[]args) {
 	Map<School,Integer> map=new HashMap<School,Integer>();
-     map.put(new School(1," Amar "," BCA "), 1);
-     map.put(new School(1," Amar "," BCA "), 1);
+     map.put(new School(3," Amar "," BCA "), 1);
+     map.put(new School(1," Amar "," BCA "), 2);
      
     
      School ch = new School(1," Amar "," BCA ");
