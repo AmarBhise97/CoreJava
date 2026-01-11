@@ -17,7 +17,7 @@ public class Intermidat_1 {
 		
 		System.out.println("========================================");
 		
-		list.stream().filter((i->(i>20))).forEach(i->System.out.print(i*2+" "));
+		list.stream().filter((i->(i>30))).forEach(i->System.out.print(i*2+" "));
 	}
 
 }
