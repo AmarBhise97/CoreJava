@@ -6,10 +6,10 @@ public class Instance_Function {
 	public static void main(String[] args) {
 		Demo2 demo = new Demo2();
 
-		Function<String, String> fun = demo::addd;
+		Function<String, String> fun = Demo2::addd;//static method call.
 		System.out.println(fun.apply("amar "));
 
-		Function<String, String> fun2 = demo::addd1;
+		Function<String, String> fun2 = demo::addd1;//spacific instance method.
 		System.out.println(fun2.apply("Amar "));
 
 		Function<Integer, Integer> fun3 = demo::addd2;
@@ -19,7 +19,7 @@ public class Instance_Function {
 }
 
 class Demo2 {
-	public String addd(String t2) {
+	public static String addd(String t2) {
 		return t2.concat(" Amar");
 	}
 

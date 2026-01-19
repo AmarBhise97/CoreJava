@@ -1,16 +1,17 @@
 package advance;
 
 public class Demon_2 {
-	public static void main(String[]args) {
+	public static void main(String[]args) throws InterruptedException {
 		Demo2 demo = new Demo2();
 		Demo3 de = new Demo3();
 		
 		demo.setDaemon(true);
 		demo.start();
-		
+		demo.sleep(4000);
 		de.start();
 		
-		System.out.println("hey...");
+		System.out.println("hey..................................................");
+	
 	}
 
 }

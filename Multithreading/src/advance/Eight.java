@@ -5,9 +5,9 @@ public class Eight {
 		Bag bag =new Bag();
 		
 		
-		bag.setDaemon(true);     //Daemon method.
+		bag.setDaemon(true);     //Daemon method.if demon method complete than terminate the main thread.
 		bag.start();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		System.out.println("Amar");
 		
 		
@@ -23,7 +23,7 @@ class Bag extends Thread{
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			

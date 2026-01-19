@@ -11,6 +11,7 @@ public class Op_Map {
 		
 		Optional<String> op1 = Optional.ofNullable("Amar");
 		System.out.println(op1.map((i)->(i.length())));
+		split
 	}
 
 }

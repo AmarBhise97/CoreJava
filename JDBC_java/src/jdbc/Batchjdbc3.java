@@ -21,7 +21,7 @@ public class Batchjdbc3 {
 			String name = sc.next();
 			pre.setInt(1, id);
 			pre.setString(2, name);
-			pre.addBatch();// in batch we have dupricat value can print than throw the exception.
+			pre.addBatch();// in batch we have duplicat value can print than throw the exception.
 			count++;
 		}
 		int[] arr = pre.executeBatch();

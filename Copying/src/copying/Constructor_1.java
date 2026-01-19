@@ -11,8 +11,8 @@ public class Constructor_1 {
 		
 		System.out.println("=================================================");
 		c2.Model="CCR9";
-		System.out.println(c2.Model);
-		System.out.println(c1.Model);//it can not change the c1 values
+		System.out.println(c1.Model);
+		System.out.println(c2.Model);//it can not change the c1 values
 		                                   //because using Copy Constructor
 	}
 
@@ -28,5 +28,8 @@ class Car{
 	public Car(Car car) {
 		this.Model=car.Model;
 		this.Capacity=car.Capacity;
+	}
+	public String toString() {
+		return this.Model+this.Capacity;
 	}
 }

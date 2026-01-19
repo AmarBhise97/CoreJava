@@ -35,7 +35,7 @@ class Thread1 extends Thread {
 
 	public void run() {
 		for (int i = 0; i < 10000; i++) {
-			source.count++;
+			source.count+=1;
 			count++;
 		}
 		System.out.println("Counter" + count);

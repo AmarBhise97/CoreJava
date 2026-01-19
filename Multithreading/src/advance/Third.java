@@ -7,7 +7,7 @@ public class Third {
 	public static void main(String[]args) {
 		ExecutorService ex = Executors.newSingleThreadExecutor();
 		
-		for(int i=0;i<5;i++) {
+		for(int i=0;i<=10;i++) {
 			Thread_3 th = new Thread_3(i);
 			ex.execute(th);
 		}

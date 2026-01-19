@@ -8,7 +8,7 @@ public class Logic_1 {
 		String str ="Demo";
 		
 		Function<String , Integer> fun =str::compareTo; 
-		System.out.println(fun.apply("Eemo"));
+		System.out.println(fun.apply("Femo"));
 		
 	}
 

@@ -19,9 +19,24 @@ public class OneD_1 {
 	}
 
 	public static void main(String[] args) {
-		int set[]=new int[4];
-		OneD_1.single(set);
-		OneD_1.print(set);
-
+		int count=0;
+		for(int i=2;i<100;i++) {
+			boolean flag =false;
+			for(int j=2;j<i;j++) {
+				if(i%j==0) {
+					flag =true;
+					
+				}
+			
+			}
+			
+			 if(!flag) {
+					
+				 System.out.println("prime :"+i);
+			 }
+			
+				
+			
+		}
 	}
 }

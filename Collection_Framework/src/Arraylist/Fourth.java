@@ -11,13 +11,9 @@ public static void main(String[]args) {
 	list.add(11);
 	list.add(2);
 	list.add(5);
-	for(int i=list.get(2);i<=list.get(list.size()-1);i++) {
-		System.out.println(i);
-		if(list.contains(i)==false) {
-			list2.add(i);
-		
-		}
-	}
-	System.out.println(list2);
+	list.remove(3);
+	System.out.println(list);
+	
+	//System.out.println(list2);
 }
 }

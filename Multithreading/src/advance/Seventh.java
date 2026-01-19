@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
 public class Seventh {
 	public static void main(String[]args) throws InterruptedException, ExecutionException {
 		ExecutorService ex = Executors.newCachedThreadPool();
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<=9;i++) {
 			Bike b1 = new Bike(i);
 			Future<Double> fu = ex.submit(b1);
 			System.out.println(fu.get());

@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Logical_Arbitary_2 {
 	public static void main(String[] args) {
-		List<String> list = Arrays.asList("abc", "abcd", "abcde");
+		List<String> list = Arrays.asList("abc", "abc8d", "abde");
 		list.stream().map(String::length)
 		.map(Suspence::square)
 		.forEach(System.out::println);

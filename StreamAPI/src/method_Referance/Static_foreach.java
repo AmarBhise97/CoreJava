@@ -24,6 +24,7 @@ public class Static_foreach {
 		System.out.println(pre4.test("b"));
 		
 		
+		
 
 	}
 }

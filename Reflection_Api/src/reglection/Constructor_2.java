@@ -11,9 +11,11 @@ public class Constructor_2 {
 			System.out.println(C1);
 			System.out.println(C1.getModifiers());
 			System.out.println(C1.getParameterCount());
-			//System.out.println(C1.getParameterTypes());
+			System.out.println(C1.getParameterTypes());
+			//System.out.println("=======================================");
 			
 			Class<?>[] c4 =C1.getParameterTypes();
+			
 			for(Class<?> cl:c4) {
 				System.out.println(cl.getName());
 			}

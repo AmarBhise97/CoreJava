@@ -15,6 +15,7 @@ public class Optional_ofnullable {
 		System.out.println(op1.isEmpty());
 		System.out.println(op1);
 		
+		
 		System.out.println(op1.get());
 	}
 

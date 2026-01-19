@@ -10,7 +10,11 @@ public class Optional_of {
 		
 		
 		Optional<String> op = Optional.of(null);
-		System.out.println(op.get()+op.isPresent());
+		System.out.println(op.isEmpty());
+		System.out.println(op.isPresent());
+		
+		
+		System.out.println(op.get()+op.isPresent()+op.isEmpty());
 		
 		
 		

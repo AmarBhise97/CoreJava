@@ -5,8 +5,8 @@ public class Seventh {
 		Prime1 p1 = new Prime1();
 		Prime_first pfis = new Prime_first(p1);
 		Prime_second psec = new Prime_second(p1);
-		pfis.setPriority(1);
-		psec.setPriority(10);
+		pfis.setPriority(10);
+		psec.setPriority(1);
 		
 		pfis.start();
 		psec.start();

@@ -5,13 +5,15 @@ import java.util.concurrent.Executors;
 
 public class Secong {
 	public static void main(String[]args) {
-		ExecutorService ex =  Executors.newFixedThreadPool(5);
-		for(int i=0;i<=5;i++) {
+		ExecutorService ex =  Executors.newFixedThreadPool(2);
+		for(int i=0;i<=10;i++) {
 			Thread_2 th = new Thread_2(i);
 			ex.execute(th);
 			
 		}
+		
 		ex.shutdown();
+		
 		
 		
 	}

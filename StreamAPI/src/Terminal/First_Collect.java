@@ -43,7 +43,7 @@ class Storing implements Collector<Integer, List<Integer>, List<Integer>> {
 
 		return (list1, list2) -> {
 			list1.addAll(list2);
-			return null;
+			return list1;
 		};
 	}
 

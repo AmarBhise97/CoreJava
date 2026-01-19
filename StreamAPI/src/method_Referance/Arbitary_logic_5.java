@@ -10,9 +10,10 @@ public class Arbitary_logic_5 {
 		List<String> list = Arrays.asList("abc","abcd","abcde");
 		list.stream()
 		.map(StringBuilder::new)
-		.map(StringBuilder::reverse)
+		.map(i->new StringBuilder(i).reverse())
 		.map(StringBuilder::toString)
 		.map(String::toUpperCase)
+		.map(String::toLowerCase)
 		
 		.map(st::concat)
 		.forEach(System.out::println);

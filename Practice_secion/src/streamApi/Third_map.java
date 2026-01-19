@@ -18,4 +18,11 @@ public class Third_map {
 		list.add(10);
 		System.out.println(list);
 		
-		list.stream().map(new ConvertStrin
+		list.stream().filter(i->i>50)
+		.map(i->i.doubleValue())
+		.map(i->i.floatValue())
+		.map(i->i.getClass())
+		
+		.forEach(System.out::println);
+}
+}

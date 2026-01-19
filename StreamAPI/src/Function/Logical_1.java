@@ -13,7 +13,7 @@ public class Logical_1 {
 				.peek((i)->System.out.println(i.length()))
 			    .map(StringBuffer::toString)
 			    .map(String::length)
-				.reduce(0,(i,j)->(i+(j*j)));
+				.reduce(0,(i,j)->(0+(j+j)));
 		         System.out.println(Square);
 		
 	}
