@@ -27,7 +27,7 @@ class Entry extends Thread {
 	}
 
 	public void run() {
-		int sum =130;
+		int sum =100;
 		while(sum<1500) {
 			this.copy.counter++;
 			sum++;

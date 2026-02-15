@@ -7,19 +7,19 @@ public class Sixth {
 	Thread2 thread2 = new Thread2(source);//core oudala
 
       thread2.start();
-//		thread1.join();
+		//thread1.join();
 	thread1.start();
-//		thread2.join();
-//		System.out.println(source.counter());
+	//thread2.join();
+		System.out.println(source.counter());
 
 	}
 
 }
 
 class Source {
-	static int count = 0;
+	 int count = 0;
 
-	public static int counter() {
+ public synchronized int counter() {
 		return count;
 
 	}
@@ -33,8 +33,8 @@ class Thread1 extends Thread {
 		this.source = source;
 	}
 
-	public void run() {
-		for (int i = 0; i < 10000; i++) {
+ public void run() {
+		for (int i = 0; i < 1000; i++) {
 			source.count+=1;
 			count++;
 		}
@@ -50,7 +50,7 @@ class Thread2 extends Thread {
 		this.source = source;
 	}
 
-	public void run() {
+	 public void run() {
 		for (int i = 0; i < 10000; i++) {
 			source.count++;
 			count++;

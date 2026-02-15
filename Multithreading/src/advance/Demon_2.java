@@ -2,12 +2,12 @@ package advance;
 
 public class Demon_2 {
 	public static void main(String[]args) throws InterruptedException {
-		Demo2 demo = new Demo2();
-		Demo3 de = new Demo3();
+		Demo1 demo = new Demo1();
+		Demo2 de = new Demo2();
 		
 		demo.setDaemon(true);
 		demo.start();
-		demo.sleep(4000);
+		demo.sleep(4);
 		de.start();
 		
 		System.out.println("hey..................................................");
@@ -15,7 +15,7 @@ public class Demon_2 {
 	}
 
 }
-class Demo2 extends Thread{
+class Demo1 extends Thread{
 	int count=2;
 	public void run() {
 		
@@ -23,7 +23,7 @@ class Demo2 extends Thread{
 			System.out.println(i);
 			count++;
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -32,7 +32,7 @@ class Demo2 extends Thread{
 	}
 	
 }
-class Demo3 extends Thread{
+class Demo2 extends Thread{
 	public void run() {
 		for(int i=0;i<10;i++) {
 			System.out.println(i+"*");

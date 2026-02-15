@@ -3,7 +3,7 @@ package basic;
 public class Third {
 	public static void main(String[] args) throws InterruptedException {
 		Runnable r=()->{
-			for(int i=0;i<100;i++) {
+			for(int i=0;i<10;i++) {
 				System.out.println("**");
 				try {
 					Thread.sleep(1000);
@@ -18,8 +18,9 @@ public class Third {
 		Thread th =new Thread(r);
 		num.start();
 		//num.join();//////Execution one by one///////////////////////////////////////
+		
 		th.start();
-		th.join();
+		//th.join();
 		
 
 	}
@@ -28,7 +29,7 @@ public class Third {
 
 class Number extends Thread {
 	public void run() {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.println("number :" + i);
 			try {
 				

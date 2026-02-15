@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 
 public class Fifth {
 	public static void main(String[]args) throws InterruptedException, ExecutionException {
-		ExecutorService ex = Executors.newFixedThreadPool(5);
+		ExecutorService ex = Executors.newFixedThreadPool(2);
 		for(int i=0;i<10;i++) {
 			Student st = new Student(i);
 			Future<String> f = ex.submit(st);

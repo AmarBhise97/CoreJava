@@ -10,6 +10,7 @@ public class Seventh {
 		
 		pfis.start();
 		psec.start();
+		System.out.println(p1.counter);
 		
 		Thread.sleep(1500);
 		
@@ -19,7 +20,7 @@ public class Seventh {
 }
 
 class Prime1 {
-	int counter = 2;
+	int counter = 1;
 
 	public  synchronized void count() {
 		counter++;

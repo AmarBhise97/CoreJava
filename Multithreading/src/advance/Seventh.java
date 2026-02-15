@@ -26,7 +26,7 @@ class Bike implements Callable<Double>{
 	
 	public Double call() throws Exception {
 		System.out.println(Thread.currentThread().getName()+" Threading "+ this.id);
-		Thread.sleep(200);
+		Thread.sleep(1000);
 		return 88.88 +id;
 	}
 }

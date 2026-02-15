@@ -6,8 +6,9 @@ public class Eight {
 		
 		
 		bag.setDaemon(true);     //Daemon method.if demon method complete than terminate the main thread.
+		//bydefault false.
 		bag.start();
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		System.out.println("Amar");
 		
 		
@@ -21,7 +22,7 @@ class Bag extends Thread{
 			System.out.println(i);
 			counter++;
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				
 				e.printStackTrace();
