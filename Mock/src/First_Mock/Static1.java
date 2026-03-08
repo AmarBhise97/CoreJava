@@ -14,8 +14,11 @@ public class Static1 {
 	public static void main(String[] args) {
 
 		Static1.add();
+	
+		static {
+			System.out.println("xys");
+		}
 	}
-
 	static int id = 10;
 
 	public static void add() {
@@ -27,5 +30,6 @@ public class Static1 {
 
 		System.out.println(id);
 	}
+	
 
 }
