@@ -12,10 +12,14 @@ public class Deep_copying_1 {
 		Village v2= new Village(v1);
 		v2.sub.sub_name="Latur";
 		v2.name="Rokistan";
+		v1.population=1234568789;
+		v2.population=123;
 		System.out .println(v1.sub.sub_name);
 		System.out .println(v2.sub.sub_name);
 		System.out .println(v1.name);
 		System.out .println(v2.name);
+		System.out.println(v1);
+		System.out.println(v2);
 		
 	}
 
@@ -40,6 +44,11 @@ class Village{
 		this.sub=new Subdivision(village.sub.sub_name);
 		
 	}
+	@Override
+	public String toString() {
+		return "Village [name=" + name + ", population=" + population + ", sub=" + sub + "]";
+	}
+	
 	
 }
 class Subdivision{
@@ -48,6 +57,10 @@ class Subdivision{
 	public Subdivision(String sub_name) {
 		this.sub_name=sub_name;
 		
+	}
+	@Override
+	public String toString() {
+		return "Subdivision [sub_name=" + sub_name + "]";
 	}
 
 }

@@ -8,7 +8,7 @@ public class Shallow_copy_2 {
 		System.out.println(st);
 		System.out.println(st2);
 		/**
-		 *
+		 *only change  object spacific fields.
 		 */
 	}
 
