@@ -9,13 +9,15 @@ public static void main(String[]args) {
 	vec.add("12");
 	vec.add("12");
 	vec.add(34);
+	vec.add(null);
+	vec.add(null);
 	vec.add(56);
 	vec.add(78);
 	vec.add(545);
 	vec.add(57);
 	vec.add(566);
 	System.out.println(vec);
-	System.out.println(vec.contains("om"));
+	System.out.println(vec.contains("13"));
 	
 	//vec.setSize(12);
 	//System.out.println(vec.get(2));

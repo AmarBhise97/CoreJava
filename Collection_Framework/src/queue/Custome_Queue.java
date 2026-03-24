@@ -7,8 +7,8 @@ import java.util.Queue;
 public class Custome_Queue {
 public static void main(String[]args) {
 	Queue<Bank> que = new PriorityQueue<>(new idComparator());
-	que.add(new Bank(1011,"SBI","12 Core"));
 	que.add(new Bank(101,"SBI","12 Core"));
+	//que.add(new Bank(101,"SBI","12 Core"));
 	que.add(new Bank(107,"SBI","12 Core"));
 	que.add(new Bank(109,"SBI","12 Core"));
 	que.add(new Bank(103,"SBI","12 Core"));

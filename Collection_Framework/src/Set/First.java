@@ -12,7 +12,7 @@ public static void main(String[]args) {
 	set.add(34);
 	set.add(null);
 	set.add(null);
-	//set.add("ad");
+	set.add(23);
 	System.out.println(set);
 }
 }

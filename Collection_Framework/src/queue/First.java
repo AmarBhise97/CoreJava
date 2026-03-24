@@ -53,7 +53,7 @@ public class First {
 		System.out.println(qe1);
 		System.out.println(qe1.poll());
 		System.out.println(qe1);
-		System.out.println(qe1.poll());
+		System.out.println(qe1.remove(56));
 		System.out.println(qe1);
 		/**
 		 * if the remove and poll time it can be remove assanding order .

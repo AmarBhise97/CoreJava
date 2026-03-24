@@ -12,7 +12,7 @@ public class Second {
 		Bike bike2 = new Bike(12, " Dueak ", 90000);
          set.add(bike);
          set.add(bike1);
-         set.add(bike2);
+        // set.add(bike2);
          System.out.println(set);
 
 	}

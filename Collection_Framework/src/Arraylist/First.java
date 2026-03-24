@@ -9,7 +9,8 @@ public static void main(String[]args) {
 	list.add(7);
 	list.add(7);
 	list.add(7);
-	list.add(1);
+	
+	list.add(2);
 	list.add(2);
 	list.add(null);
 	list.add(null);

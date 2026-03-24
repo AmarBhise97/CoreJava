@@ -5,7 +5,10 @@ import java.util.LinkedList;
 public class First {
 	public static void main(String[]args) {
 		LinkedList<Object> list = new LinkedList<Object>();
+		list.add(58);
 		list.add(10);
+		list.add(null);
+		list.add(null);
 		list.add(34);
 		list.add("2345");
 		list.add("amar");

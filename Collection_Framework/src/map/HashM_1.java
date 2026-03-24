@@ -10,11 +10,17 @@ public class HashM_1 {
 		map.put(10, "Rohit");
 		map.put(5, "Gagan");
 		map.put(1, "Ankit");// in hashmap insertation order not maintain
-		                      // but sorting only keys
+		                 
 		map.put(9, "Arti");
+		map.put(0, "Arti");
+		map.put(45, "Arti");
+		map.put(89, "Arti");
+		map.put(4, "Arti");
+		map.put(2, "Arti");
+		map.put(3, "Arti");
 		System.out.println(map);
 		System.out.println(map.get(10));//get the value for key 10
-		System.out.println("Remove 7 : "+map.remove(7));
+		System.out.println("Remove 7 : "+map.remove(0));
 		System.out.println(map);
 		System.out.println(map.containsKey(1));//check is available or
 		                                          //notavailable

@@ -16,8 +16,8 @@ public class EnterySet_1 {
 		System.out.println(mp);
 		System.out.println(mp.entrySet());
 		for (Entry<Integer, String> e : mp.entrySet()) {
-			System.out.println(e.getKey());
-			System.out.println(e.getValue());
+			System.out.println(e.getKey()+"::"+e.getValue());
+			//System.out.println(e.getValue());
 
 		}
 		for (Integer i : mp.keySet()) {

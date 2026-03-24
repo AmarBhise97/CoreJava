@@ -15,6 +15,7 @@ public static void main(String[]args) {
 	qu.add(new Car(103,"Definder   :",     "Ao4",120000.60,"black"));
 	qu.add(new Car(100,"Mustang    : ",   "Ao9",120000.60,"white"));
 	qu.add(new Car(109,"Lanburgini : ",    "Ao3",120000.60,"white"));
+	System.out.println(qu);
 	
 	}
 

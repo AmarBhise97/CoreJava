@@ -18,6 +18,8 @@ public static void main(String[]args) {
 	table.put(6, "Raju");
 	table.put(1, "Sham");
 	table.put(7, "Kotic");
+	//table.put(1, null);
+	//table.put(null, null);
 	System.out.print(table);
 	System.out.println(table.getOrDefault(0, "Ankit"));
 	/**

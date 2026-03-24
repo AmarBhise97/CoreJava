@@ -8,7 +8,7 @@ public class Second {
 public static void main(String[]args) {
 	Queue <String> d1=new PriorityQueue<String>();
 	
-	d1.add("ad");
+	d1.add("yd");
 	d1.add("ad");
 	System.out.println(d1);
 	d1.add("gd");
