@@ -3,7 +3,7 @@ package InterviewQuestion;
 public class Factorial {
 	 public static void main(String[]args) {
 		 
-		 int num=34;
+		 int num=70;
 		 int fact=1;
 		 
 		 for(int i=1;i<num;i++) {
