@@ -35,7 +35,7 @@ class Employee {
 	}
 
 	public static int addd2(Integer t3) {
-		return t3.sum(26, 26);
+		return Integer.sum(26, 26);
 	}
 
 }
