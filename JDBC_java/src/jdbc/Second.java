@@ -24,6 +24,11 @@ public class Second {
 		ptmt.close();
 		con.close();
 		sc.close();
+		
+		/**
+		 * if you are duplicate enteries are added.than throw exception.
+		 * java.sql.SQLIntegrityConstraintViolationException
+		 */
 	}
 
 }

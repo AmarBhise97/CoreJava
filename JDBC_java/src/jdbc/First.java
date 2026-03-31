@@ -23,7 +23,7 @@ public class First {
 			System.out.println("Connection openetd :");
 			
 			
-			int n = st.executeUpdate("insert into student values(3,'CDF'),(4,'ghi'),(5,'ldcc');");
+			int n = st.executeUpdate("insert into student values(7,'CDF'),(8,'ghi'),(9,'ldcc');");
 			// step 3 : insert the data using eclips.....
 			System.out.println("Insert the data " + n);
 		} catch (Exception e) {
