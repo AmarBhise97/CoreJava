@@ -5,6 +5,7 @@ public class Maximum_number {
 		
 		int arr[]= {10,5,80,59,70};
 		
+		
 		int max=arr[0];
 		int min=arr[0];
 		
